@@ -25,7 +25,9 @@ export const Hero: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4">
               <a
-                href="#products"
+                href={generateWhatsAppLink()}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-3 text-base font-medium rounded-full text-white bg-jamu-primary hover:bg-jamu-secondary transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200"
               >
                 Pesan Sekarang
