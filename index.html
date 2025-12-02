@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Jamuku - Warisan Sehat Nusantara | Jual Jamu Tradisional</title>
+    <meta name="description" content="Nikmati kesegaran jamu tradisional asli Indonesia. Tersedia Kunyit Asam, Beras Kencur, dan Temulawak. Dibuat dari bahan alami, resep turun temurun. Pesan sekarang!" />
+    <meta name="keywords" content="jamu, herbal, tradisional, kunyit asam, beras kencur, temulawak, kesehatan, minuman sehat" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              jamu: {
+                base: '#fdf6e3', // Cream background
+                primary: '#92400e', // Amber 800 - Deep warm brown
+                secondary: '#d97706', // Amber 600 - Turmeric orange
+                accent: '#4d7c0f', // Lime 700 - Leaf green
+                dark: '#451a03', // Amber 950 - Very dark brown
+              }
+            },
+            fontFamily: {
+              serif: ['Merriweather', 'serif'],
+              sans: ['Inter', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-jamu-base text-jamu-dark font-sans antialiased" style="background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/838/909/small/traditional-indonesian-batik-background-template-free-vector.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; background-attachment: fixed;">
+    <div id="root"></div>
+  </body>
+</html>
